@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\json">
+      <UniqueIdentifier>{73b2b1c7-019f-4804-8e21-b3d234bdcbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\socket">
+      <UniqueIdentifier>{d07b2876-3119-42ed-a941-80dcf790e2a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_reader.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_value.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_writer.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\BaseConnect.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\TCPSocket.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\autolink.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\config.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\features.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\forwards.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\json.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\json_batchallocator.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\reader.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\value.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\writer.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\BaseConnect.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\Common.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\PublicByteBuffer.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\TCPSocket.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\WorldPacket.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\json\json_internalarray.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+    <None Include="..\Classes\json\json_internalmap.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+    <None Include="..\Classes\json\json_valueiterator.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+    <None Include="..\Classes\json\sconscript">
+      <Filter>Classes\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
